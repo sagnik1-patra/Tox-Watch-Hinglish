@@ -1,4 +1,4 @@
-🚨 Tox Watch Hinglish — Hateful Language Detector (Yes/No)
+🚨 Tox Watch Hinglish — Hateful Language Detector (Yes/No).
 
 Minimal, production-minded script to flag hateful language in Hinglish / Indic code-mixed text.
 Research/demo only. Not a legal definition or a substitute for human review.
