@@ -1,0 +1,47 @@
+{
+  "created_utc": "2025-09-14T11:24:31.753313Z",
+  "items": [
+    {
+      "text": "Aaj ka match mast tha, sab chill!",
+      "is_hateful": 0,
+      "hateful_score": 0.2355,
+      "model_label": "defamation",
+      "highlights": []
+    },
+    {
+      "text": "I hate that community, they should go back.",
+      "is_hateful": 0,
+      "hateful_score": 0.4855,
+      "model_label": "defamation",
+      "highlights": [
+        [
+          35,
+          42,
+          "exclusion"
+        ],
+        [
+          7,
+          21,
+          "broad_dehumanizing"
+        ],
+        [
+          0,
+          6,
+          "explicit_hate_word"
+        ]
+      ]
+    },
+    {
+      "text": "Yaar calm down, arguments se kuch solve nahi hota.",
+      "is_hateful": 0,
+      "hateful_score": 0.2396,
+      "model_label": "defamation",
+      "highlights": []
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "hateful": 0,
+    "not_hateful": 3
+  }
+}

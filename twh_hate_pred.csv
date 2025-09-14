@@ -1,0 +1,4 @@
+text,is_hateful,hateful_score,model_label,highlights
+"Aaj ka match mast tha, sab chill!",0,0.2355,defamation,[]
+"I hate that community, they should go back.",0,0.4855,defamation,"[(35, 42, 'exclusion'), (7, 21, 'broad_dehumanizing'), (0, 6, 'explicit_hate_word')]"
+"Yaar calm down, arguments se kuch solve nahi hota.",0,0.2396,defamation,[]

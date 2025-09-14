@@ -1,0 +1,19 @@
+{
+  "runs": [
+    {
+      "run_utc": "2025-09-14T11:05:45.328027Z",
+      "mode": "TEST_EVAL",
+      "sources": {
+        "train": "C:\\Users\\sagni\\Downloads\\Tox Watch Hinglish\\archive\\Hatespeech-Hindi_Train.csv",
+        "valid": "C:\\Users\\sagni\\Downloads\\Tox Watch Hinglish\\archive\\Hatespeech-Hindi_Valid.csv",
+        "test": "C:\\Users\\sagni\\Downloads\\Tox Watch Hinglish\\archive\\Hatespeech-Hindi_Test.csv"
+      },
+      "metrics": {
+        "accuracy": 0.4737,
+        "macro_precision": 0.2383,
+        "macro_recall": 0.1684,
+        "macro_f1": 0.133
+      }
+    }
+  ]
+}

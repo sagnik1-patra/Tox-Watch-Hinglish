@@ -1,0 +1,22 @@
+                                precision    recall  f1-score   support
+
+                    defamation       0.11      0.87      0.19        89
+               defamation,fake       0.00      0.00      0.00        11
+          defamation,fake,hate       0.00      0.00      0.00         3
+defamation,fake,hate,offensive       0.06      0.33      0.11         3
+     defamation,fake,offensive       1.00      0.12      0.22         8
+               defamation,hate       0.00      0.00      0.00        22
+     defamation,hate,offensive       0.00      0.00      0.00         9
+          defamation,offensive       0.07      0.21      0.10        24
+                          fake       0.62      0.16      0.26       289
+                     fake,hate       0.00      0.00      0.00         9
+           fake,hate,offensive       0.00      0.00      0.00         3
+                fake,offensive       0.00      0.00      0.00         8
+                          hate       0.25      0.14      0.18       138
+                hate,offensive       0.17      0.02      0.04        47
+                   non-hostile       0.99      0.71      0.82       873
+                     offensive       0.56      0.13      0.21       117
+
+                      accuracy                           0.47      1653
+                     macro avg       0.24      0.17      0.13      1653
+                  weighted avg       0.71      0.47      0.52      1653

@@ -1,0 +1,104 @@
+dataset_name: toxwatch_hinglish
+source_csv:
+  train: C:\Users\sagni\Downloads\Tox Watch Hinglish\archive\Hatespeech-Hindi_Train.csv
+  valid: C:\Users\sagni\Downloads\Tox Watch Hinglish\archive\Hatespeech-Hindi_Valid.csv
+  test: C:\Users\sagni\Downloads\Tox Watch Hinglish\archive\Hatespeech-Hindi_Test.csv
+created_utc: '2025-09-14T10:50:48.626283Z'
+text_columns_used:
+  train: Post
+  valid: Post
+  test: Post
+label_columns_used:
+  train: Labels Set
+  valid: Labels Set
+  test: Labels Set
+label2id:
+  defamation: 0
+  defamation,fake: 1
+  defamation,fake,hate: 2
+  defamation,fake,hate,offensive: 3
+  defamation,fake,offensive: 4
+  defamation,hate: 5
+  defamation,hate,offensive: 6
+  defamation,offensive: 7
+  fake: 8
+  fake,hate: 9
+  fake,hate,offensive: 10
+  fake,offensive: 11
+  hate: 12
+  hate,offensive: 13
+  non-hostile: 14
+  offensive: 15
+id2label:
+  '0': defamation
+  '1': defamation,fake
+  '2': defamation,fake,hate
+  '3': defamation,fake,hate,offensive
+  '4': defamation,fake,offensive
+  '5': defamation,hate
+  '6': defamation,hate,offensive
+  '7': defamation,offensive
+  '8': fake
+  '9': fake,hate
+  '10': fake,hate,offensive
+  '11': fake,offensive
+  '12': hate
+  '13': hate,offensive
+  '14': non-hostile
+  '15': offensive
+sizes:
+  train: 5728
+  valid: 811
+  test: 1653
+class_balance:
+  train:
+    '14': 3050
+    '8': 1009
+    '12': 478
+    '15': 405
+    '0': 305
+    '13': 163
+    '7': 81
+    '5': 74
+    '1': 34
+    '6': 28
+    '11': 28
+    '9': 27
+    '4': 24
+    '2': 9
+    '3': 9
+    '10': 4
+  valid:
+    '14': 435
+    '8': 144
+    '12': 68
+    '15': 57
+    '0': 43
+    '13': 23
+    '7': 11
+    '5': 10
+    '11': 4
+    '6': 4
+    '1': 4
+    '4': 3
+    '9': 3
+    '2': 1
+    '3': 1
+  test:
+    '14': 873
+    '8': 289
+    '12': 138
+    '15': 117
+    '0': 89
+    '13': 47
+    '7': 24
+    '5': 22
+    '1': 11
+    '6': 9
+    '9': 9
+    '4': 8
+    '11': 8
+    '2': 3
+    '10': 3
+    '3': 3
+notes: Labels are mapped consistently across splits using label2id/id2label.

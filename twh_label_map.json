@@ -1,0 +1,38 @@
+{
+  "label2id": {
+    "defamation": 0,
+    "defamation,fake": 1,
+    "defamation,fake,hate": 2,
+    "defamation,fake,hate,offensive": 3,
+    "defamation,fake,offensive": 4,
+    "defamation,hate": 5,
+    "defamation,hate,offensive": 6,
+    "defamation,offensive": 7,
+    "fake": 8,
+    "fake,hate": 9,
+    "fake,hate,offensive": 10,
+    "fake,offensive": 11,
+    "hate": 12,
+    "hate,offensive": 13,
+    "non-hostile": 14,
+    "offensive": 15
+  },
+  "id2label": {
+    "0": "defamation",
+    "1": "defamation,fake",
+    "2": "defamation,fake,hate",
+    "3": "defamation,fake,hate,offensive",
+    "4": "defamation,fake,offensive",
+    "5": "defamation,hate",
+    "6": "defamation,hate,offensive",
+    "7": "defamation,offensive",
+    "8": "fake",
+    "9": "fake,hate",
+    "10": "fake,hate,offensive",
+    "11": "fake,offensive",
+    "12": "hate",
+    "13": "hate,offensive",
+    "14": "non-hostile",
+    "15": "offensive"
+  }
+}
